@@ -1,0 +1,88 @@
+html {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+
+nav {
+    background-color: blue;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+
+main {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+main h1 {
+    border-bottom: 3px solid blue;
+    width: 40%;
+}
+
+main h1.contact {
+    border-bottom: 3px solid blue;
+    width: 15%;
+}
+
+main h1.about {
+    border-bottom: 3px solid blue;
+    width: 20%;
+}
+
+main p {
+    margin-top: 20px;
+    padding: 40px 40px 40px 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+input#Submit{
+    background-color: blue;
+    color: yellow;
+    border: 1px solid blue;
+}
+
+input#Submit:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+
+footer {
+    background-color: yellow;
+    color: blue;
+    padding: 10px;
+    font-size: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
